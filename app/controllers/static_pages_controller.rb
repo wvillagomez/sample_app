@@ -1,5 +1,7 @@
 class StaticPagesController < ApplicationController
  
+ # Define an action for each of our pages (home, help, etc.)
+ 
   def home
   end
 
@@ -7,6 +9,9 @@ class StaticPagesController < ApplicationController
   end
 
   def about
+  end
+
+  def contacts
   end
 
 end
